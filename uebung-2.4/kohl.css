@@ -1,0 +1,38 @@
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #bbe09f;
+  }
+
+  div#titlepage {
+    padding: 1em;
+    background-color: #d4f8b9;
+  }
+
+  h1 {
+    color: #cc3300;
+  }
+
+  h2 {
+    color: #663300;
+  }
+
+  a {
+    color: #030;
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: #363;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #030;
+    background-color: #87b862;
+  }
+
+  a:active {
+    color: #cc3300;
+  }

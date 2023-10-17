@@ -1,0 +1,3 @@
+Es wird der Text von bistro.html, ehemalig bistro.txt, angezeigt. Der Text steht ohne Format oder Design schwarz auf weiss.
+
+Nachdem ich das Grundgerüst angefügt habe, sah es genau gleich aus, denn es ist der gleiche Text einfach besser dargestellt in VS Code.
