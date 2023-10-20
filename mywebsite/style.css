@@ -8,6 +8,8 @@ main {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("frozen.png");
 }
 
 header {
@@ -94,10 +96,11 @@ nav a {
   padding: 40px 0;
   background-color: #1a18185b;
   color: #ffffff;
-  margin-top: 25vh;
+  margin-top: 50vh;
   bottom: 0;
   width: 100%;
   margin-bottom: auto;
+  vertical-align: baseline;
 }
 
 .footer-basic .social {
@@ -166,7 +169,7 @@ nav a {
 }
 
 .item {
-  background-color: rgba(75, 5, 65, 0.6);
+  background-color: rgba(135, 10, 116, 0.6);
   color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -225,7 +228,7 @@ nav a {
 }
 
 .start {
-  background-color: rgba(75, 5, 65, 0.6);
+  background-color: rgba(135, 10, 116, 0.6);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 2.5%;
@@ -300,7 +303,7 @@ nav a {
 }
 
 .map-container {
-  background-color: rgba(75, 5, 65, 0.6);
+  background-color: rgba(135, 10, 116, 0.6);
   padding: 2.5%;
   border-radius: 1.5rem;
   margin: 2.5%;
@@ -337,7 +340,7 @@ nav a {
 
 /*land*/
 .land {
-  background-color: rgba(75, 5, 65, 0.6);
+  background-color: rgba(135, 10, 116, 0.6);
   color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -433,7 +436,7 @@ figure:hover figcaption {
 }
 
 .lstart {
-  background-color: rgba(75, 5, 65, 0.6);
+  background-color: rgba(135, 10, 116, 0.6);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 2.5%;
@@ -498,7 +501,7 @@ figure:hover figcaption {
 }
 
 .about {
-  background-color: rgba(75, 5, 65, 0.6);
+  background-color: rgba(135, 10, 116, 0.6);
   color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -593,5 +596,34 @@ figure:hover figcaption {
   .lstart img {
     width: 100%;
     height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .item:hover,
+  .land:hover,
+  .lstart:hover,
+  .about:hover,
+  figure:hover figcaption,
+  .navi:hover {
+    background-color: transparent;
+    transition: none;
+    box-shadow: none;
+    transform: none;
+  }
+
+  .item-content:hover p,
+  .land p,
+  .lstart p,
+  .about p {
+    display: block;
+    color: black;
+  }
+
+  .item-content:hover img,
+  .land img,
+  .lstart img,
+  .about img {
+    display: block;
   }
 }
